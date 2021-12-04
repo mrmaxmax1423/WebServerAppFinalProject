@@ -391,3 +391,4 @@ C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug
 C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddSide.cshtml.g.cs
 C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\DeleteDessert.cshtml.g.cs
 C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\DeleteSide.cshtml.g.cs
+C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\TempManager.csproj.AssemblyReference.cache

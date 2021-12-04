@@ -17,7 +17,7 @@ namespace Ch11Ex1TempManager.Controllers
 
         //Entree
         [HttpGet]
-        public ViewResult AddEntree() => View(new Temp());
+        public ViewResult AddEntree() => View(new Entree());
 
         [HttpPost]
         public IActionResult AddEntree(Temp temp)
@@ -47,7 +47,7 @@ namespace Ch11Ex1TempManager.Controllers
 
         //Sides
         [HttpGet]
-        public ViewResult AddSide() => View(new Temp());
+        public ViewResult AddSide() => View(new Side());
 
         [HttpPost]
         public IActionResult AddSide(Temp temp)
@@ -77,7 +77,7 @@ namespace Ch11Ex1TempManager.Controllers
 
         //Desserts
         [HttpGet]
-        public ViewResult AddDessert() => View(new Temp());
+        public ViewResult AddDessert() => View(new Dessert());
 
         [HttpPost]
         public IActionResult AddDessert(Temp temp)
