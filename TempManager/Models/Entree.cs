@@ -1,4 +1,6 @@
-﻿using System;
+﻿//This is entree model
+
+using System;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc;
 
