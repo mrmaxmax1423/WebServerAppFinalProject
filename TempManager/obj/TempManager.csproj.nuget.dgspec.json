@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maxim\\Desktop\\Ch11Ex1TempManager\\TempManager\\TempManager.csproj": {}
+    "C:\\Users\\Matthew\\Documents\\GitHub\\WebServerAppFinalProject\\TempManager\\TempManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maxim\\Desktop\\Ch11Ex1TempManager\\TempManager\\TempManager.csproj": {
+    "C:\\Users\\Matthew\\Documents\\GitHub\\WebServerAppFinalProject\\TempManager\\TempManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maxim\\Desktop\\Ch11Ex1TempManager\\TempManager\\TempManager.csproj",
+        "projectUniqueName": "C:\\Users\\Matthew\\Documents\\GitHub\\WebServerAppFinalProject\\TempManager\\TempManager.csproj",
         "projectName": "TempManager",
-        "projectPath": "C:\\Users\\maxim\\Desktop\\Ch11Ex1TempManager\\TempManager\\TempManager.csproj",
-        "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maxim\\Desktop\\Ch11Ex1TempManager\\TempManager\\obj\\",
+        "projectPath": "C:\\Users\\Matthew\\Documents\\GitHub\\WebServerAppFinalProject\\TempManager\\TempManager.csproj",
+        "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matthew\\Documents\\GitHub\\WebServerAppFinalProject\\TempManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
