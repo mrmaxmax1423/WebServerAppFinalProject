@@ -8,8 +8,8 @@ namespace Ch11Ex1TempManager.Controllers
 {
     public class HomeController : Controller
     {
-        private TempManagerContext data { get; set; }
-        public HomeController(TempManagerContext ctx) => data = ctx;
+        private DishesContext data { get; set; }
+        public HomeController(DishesContext ctx) => data = ctx;
 
         public ViewResult Index()
         {
@@ -19,92 +19,39 @@ namespace Ch11Ex1TempManager.Controllers
 
         //Entree
         [HttpGet]
-        public ViewResult AddEntree() => View(new Temp());
+        public ViewResult AddEntree() => View(new Entree());
 
         [HttpPost]
-        public IActionResult AddEntree(Temp temp)
+        public IActionResult AddEntree(Entree entree)
         {
-            // server-side check for remote validation for duplicate date
-            Temp check = data.Temps.FirstOrDefault(t => t.Date == temp.Date);
-            if (check != null)
-            {
-                ModelState.AddModelError("Date",
-                    $"The date {temp.Date?.ToShortDateString()} is already in the database.");
-            }
-
-            if (ModelState.IsValid)
-            {
-                data.Temps.Add(temp);
+                data.Entrees.Add(entree);
                 data.SaveChanges();
+                return View(entree);
 
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                // model-level validation message
-                ModelState.AddModelError("", "Please correct all errors.");
-                return View(temp);
-            }
         }
 
         //Sides
         [HttpGet]
-        public ViewResult AddSide() => View(new Temp());
+        public ViewResult AddSide() => View(new Side());
 
         [HttpPost]
-        public IActionResult AddSide(Temp temp)
+        public IActionResult AddSide(Side side)
         {
-            // server-side check for remote validation for duplicate date
-            Temp check = data.Temps.FirstOrDefault(t => t.Date == temp.Date);
-            if (check != null)
-            {
-                ModelState.AddModelError("Date",
-                    $"The date {temp.Date?.ToShortDateString()} is already in the database.");
-            }
-
-            if (ModelState.IsValid)
-            {
-                data.Temps.Add(temp);
-                data.SaveChanges();
-
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                // model-level validation message
-                ModelState.AddModelError("", "Please correct all errors.");
-                return View(temp);
-            }
+            data.Sides.Add(side);
+            data.SaveChanges();
+            return View(side);
         }
 
         //Desserts
         [HttpGet]
-        public ViewResult AddDessert() => View(new Temp());
+        public ViewResult AddDessert() => View(new Dessert());
 
         [HttpPost]
-        public IActionResult AddDessert(Temp temp)
+        public IActionResult AddDessert(Dessert dessert)
         {
-            // server-side check for remote validation for duplicate date
-            Temp check = data.Temps.FirstOrDefault(t => t.Date == temp.Date);
-            if (check != null)
-            {
-                ModelState.AddModelError("Date",
-                    $"The date {temp.Date?.ToShortDateString()} is already in the database.");
-            }
-
-            if (ModelState.IsValid)
-            {
-                data.Temps.Add(temp);
-                data.SaveChanges();
-
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                // model-level validation message
-                ModelState.AddModelError("", "Please correct all errors.");
-                return View(temp);
-            }
+            data.Desserts.Add(dessert);
+            data.SaveChanges();
+            return View(dessert);
         }
 
         /* Attempting to add About us method */
@@ -123,9 +70,9 @@ namespace Ch11Ex1TempManager.Controllers
         }
 
         [HttpPost]
-        public RedirectToActionResult DeleteEntree(Temp temp)
+        public RedirectToActionResult DeleteEntree(Entree entree)
         {
-            data.Remove(temp);
+            data.Remove(entree);
             data.SaveChanges();
 
             return RedirectToAction("Index");
@@ -139,9 +86,9 @@ namespace Ch11Ex1TempManager.Controllers
         }
 
         [HttpPost]
-        public RedirectToActionResult DeleteSide(Temp temp)
+        public RedirectToActionResult DeleteSide(Side side)
         {
-            data.Remove(temp);
+            data.Remove(side);
             data.SaveChanges();
 
             return RedirectToAction("Index");
@@ -155,9 +102,9 @@ namespace Ch11Ex1TempManager.Controllers
         }
 
         [HttpPost]
-        public RedirectToActionResult DeleteDessert(Temp temp)
+        public RedirectToActionResult DeleteDessert(Dessert dessert)
         {
-            data.Remove(temp);
+            data.Remove(dessert);
             data.SaveChanges();
 
             return RedirectToAction("Index");

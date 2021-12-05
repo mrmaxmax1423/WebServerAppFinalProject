@@ -7,8 +7,8 @@ namespace Ch11Ex1TempManager.Controllers
 {
     public class ValidationController : Controller
     {
-        private TempManagerContext data { get; set; }
-        public ValidationController(TempManagerContext ctx) => data = ctx;
+        private DishesContext data { get; set; }
+        public ValidationController(DishesContext ctx) => data = ctx;
 
         public JsonResult CheckDate(string date)
         {
