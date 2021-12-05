@@ -1,5 +1,5 @@
 ﻿@* Maximiliano De Santiago *@
-@model Temp
+@model Side
 
 @{
     ViewData["Title"] = "Add";
@@ -13,13 +13,13 @@
     <tbody>
         <tr>
             <td>@Model.Date?.ToShortDateString()</td>
-            <td>@Model.Low</td>
-            <td>@Model.High</td>
+            <td>@Model.Name</td>
+            <td>@Model.Description</td>
         </tr>
     </tbody>
 </table>
 
-<form asp-action="Delete Side" method="post">
+<form asp-action="DeleteSide" method="post">
     <input type="hidden" asp-for="Id" />
 
     <button type="submit" class="btn btn-dark mr-2">Delete</button>

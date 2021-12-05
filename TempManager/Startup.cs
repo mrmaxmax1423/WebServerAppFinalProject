@@ -20,8 +20,8 @@ namespace TempManager
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<TempManagerContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("TempManagerContext")));
+            services.AddDbContext<DishesContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DishesContext")));
         }
 
         // Use this method to configure the HTTP request pipeline.
