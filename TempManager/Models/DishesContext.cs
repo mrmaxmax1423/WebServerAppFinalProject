@@ -12,7 +12,6 @@ namespace TempManager.Models
         public DishesContext(DbContextOptions<DishesContext> options)
             : base(options)
         { }
-        public DbSet<Temp> Temps { get; set; }
         public DbSet<Entree> Entrees { get; set; }
         public DbSet<Side> Sides { get; set; }
         public DbSet<Dessert> Desserts { get; set; }

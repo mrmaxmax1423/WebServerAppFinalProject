@@ -13,8 +13,8 @@ namespace Ch11Ex1TempManager.Controllers
 
         public ViewResult Index()
         {
-            var temps = data.Temps.OrderBy(t => t.Date).ToList();
-            return View(temps);
+            var entrees = data.Entrees.OrderBy(t => t.Date).ToList();
+            return View(entrees);
         }
 
         //Entree
@@ -65,8 +65,8 @@ namespace Ch11Ex1TempManager.Controllers
         [HttpGet]
         public ViewResult DeleteEntree(int id)
         {
-            var temp = data.Temps.Find(id);
-            return View(temp);
+            var entree = data.Entrees.Find(id);
+            return View(entree);
         }
 
         [HttpPost]
@@ -81,8 +81,8 @@ namespace Ch11Ex1TempManager.Controllers
         [HttpGet]
         public ViewResult DeleteSide(int id)
         {
-            var temp = data.Temps.Find(id);
-            return View(temp);
+            var side = data.Sides.Find(id);
+            return View(side);
         }
 
         [HttpPost]
@@ -97,8 +97,8 @@ namespace Ch11Ex1TempManager.Controllers
         [HttpGet]
         public ViewResult DeleteDessert(int id)
         {
-            var temp = data.Temps.Find(id);
-            return View(temp);
+            var dessert = data.Desserts.Find(id);
+            return View(dessert);
         }
 
         [HttpPost]

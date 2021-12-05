@@ -1,5 +1,5 @@
 ﻿@* Maximiliano De Santiago *@
-@model Temp
+@model Dessert
 
 @{
     ViewData["Title"] = "Add";
@@ -14,8 +14,8 @@
     <tbody>
         <tr>
             <td>@Model.Date?.ToShortDateString()</td>
-            <td>@Model.Low</td>
-            <td>@Model.High</td>
+            <td>@Model.Name</td>
+            <td>@Model.Description</td>
         </tr>
     </tbody>
 </table>
