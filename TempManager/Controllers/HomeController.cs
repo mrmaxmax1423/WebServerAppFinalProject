@@ -1,4 +1,6 @@
-﻿using System.Linq;
+﻿
+
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using TempManager.Models;
 
@@ -104,6 +106,14 @@ namespace Ch11Ex1TempManager.Controllers
                 return View(temp);
             }
         }
+
+        /* Attempting to add About us method */
+        public ViewResult AboutUs()
+        { 
+
+            return View();
+        }
+
 
         [HttpGet]
         public ViewResult DeleteEntree(int id)
