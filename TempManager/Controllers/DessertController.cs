@@ -40,5 +40,11 @@ namespace FoodManager.Controllers
 
             return RedirectToAction("Index");
         }
+
+        public string OpenModelPopup()
+        {
+            //can send some data also.  
+            return "<h1>Dessert Successfully Added</h1>";
+        }
     }
 }
