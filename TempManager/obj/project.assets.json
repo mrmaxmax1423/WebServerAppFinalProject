@@ -8267,9 +8267,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matthew\\Documents\\GitHub\\WebServerAppFinalProject\\TempManager\\TempManager.csproj",
-      "projectName": "TempManager",
-      "projectPath": "C:\\Users\\Matthew\\Documents\\GitHub\\WebServerAppFinalProject\\TempManager\\TempManager.csproj",
+      "projectUniqueName": "C:\\Users\\Matthew\\Documents\\GitHub\\WebServerAppFinalProject\\TempManager\\FoodManager.csproj",
+      "projectName": "FoodManager",
+      "projectPath": "C:\\Users\\Matthew\\Documents\\GitHub\\WebServerAppFinalProject\\TempManager\\FoodManager.csproj",
       "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Matthew\\Documents\\GitHub\\WebServerAppFinalProject\\TempManager\\obj\\",
       "projectStyle": "PackageReference",

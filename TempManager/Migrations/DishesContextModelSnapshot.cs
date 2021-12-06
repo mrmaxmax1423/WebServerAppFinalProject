@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using TempManager.Models;
+using FoodManager.Models;
 
-namespace TempManager.Migrations
+namespace FoodManager.Migrations
 {
     [DbContext(typeof(DishesContext))]
     partial class DishesContextModelSnapshot : ModelSnapshot
@@ -19,7 +19,7 @@ namespace TempManager.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("TempManager.Models.Dessert", b =>
+            modelBuilder.Entity("FoodManager.Models.Dessert", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -42,7 +42,7 @@ namespace TempManager.Migrations
                     b.ToTable("Desserts");
                 });
 
-            modelBuilder.Entity("TempManager.Models.Entree", b =>
+            modelBuilder.Entity("FoodManager.Models.Entree", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -65,7 +65,7 @@ namespace TempManager.Migrations
                     b.ToTable("Entrees");
                 });
 
-            modelBuilder.Entity("TempManager.Models.Side", b =>
+            modelBuilder.Entity("FoodManager.Models.Side", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -88,7 +88,7 @@ namespace TempManager.Migrations
                     b.ToTable("Sides");
                 });
 
-            modelBuilder.Entity("TempManager.Models.Temp", b =>
+            modelBuilder.Entity("FoodManager.Models.Temp", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

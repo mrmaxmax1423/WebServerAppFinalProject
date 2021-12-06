@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CroyWY8Az2lgXctNxUxq9Ewx9xYTDKFjGPkp7k2v7J9d3hDkJ4pglxAzHLTZr0WdeMRlyuUldLrCfLHBdUxpRw==",
+  "dgSpecHash": "oTv/bC3nYCkX4Mv7jX7mDon+eRuYASaLCqaOWrer7Crcpee+/xTak2bOXdOgDBcNiEz+GbfT41OueJNoUufP2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matthew\\Documents\\GitHub\\WebServerAppFinalProject\\TempManager\\TempManager.csproj",
+  "projectFilePath": "C:\\Users\\Matthew\\Documents\\GitHub\\WebServerAppFinalProject\\TempManager\\FoodManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Matthew\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Matthew\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

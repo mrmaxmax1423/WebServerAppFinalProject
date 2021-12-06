@@ -4,7 +4,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc;
 
-namespace TempManager.Models
+namespace FoodManager.Models
 {
     public class Entree
     {
