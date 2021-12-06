@@ -1,8 +1,8 @@
 ﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using TempManager.Models;
+using FoodManager.Models;
 
-namespace TempManager.Controllers
+namespace FoodManager.Controllers
 {
     public class SideController : Controller
     {

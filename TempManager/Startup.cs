@@ -2,9 +2,9 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
-using TempManager.Models;
+using FoodManager.Models;
 
-namespace TempManager
+namespace FoodManager
 {
     public class Startup
     {
