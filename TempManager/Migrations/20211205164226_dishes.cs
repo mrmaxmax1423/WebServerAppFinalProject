@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace TempManager.Migrations
+namespace FoodManager.Migrations
 {
     public partial class dishes : Migration
     {

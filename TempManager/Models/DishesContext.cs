@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace TempManager.Models
+namespace FoodManager.Models
 {
     public class DishesContext : DbContext
     {

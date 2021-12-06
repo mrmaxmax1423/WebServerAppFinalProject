@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using TempManager.Models;
+using FoodManager.Models;
 
-namespace Ch11Ex1TempManager.Controllers
+namespace Ch11Ex1FoodManager.Controllers
 {
 
 }

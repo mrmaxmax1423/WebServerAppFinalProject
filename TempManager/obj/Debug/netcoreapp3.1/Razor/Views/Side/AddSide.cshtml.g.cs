@@ -14,20 +14,20 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\Views\_ViewImports.cshtml"
-using TempManager;
+using FoodManager;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\Views\_ViewImports.cshtml"
-using TempManager.Models;
+using FoodManager.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e5daa0f5d7e8ac894d23d530e34422b6064622f2", @"/Views/Side/AddSide.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"805ca4ffe24ec346804a161fc6deb0a2f047fa83", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7679a09e1b9e24e0236eb4645571c105ac2fb69b", @"/Views/_ViewImports.cshtml")]
     public class Views_Side_AddSide : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Side>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", new global::Microsoft.AspNetCore.Html.HtmlString("~/lib/jquery-validation/dist/jquery.validate.min.js"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
