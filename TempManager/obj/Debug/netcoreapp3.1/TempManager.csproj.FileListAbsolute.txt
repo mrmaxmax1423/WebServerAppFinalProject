@@ -385,12 +385,6 @@ C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug
 C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\TempManager.dll
 C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\TempManager.pdb
 C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\TempManager.genruntimeconfig.cache
-C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddEntree.cshtml.g.cs
-C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\DeleteEntree.cshtml.g.cs
-C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddDessert.cshtml.g.cs
-C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddSide.cshtml.g.cs
-C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\DeleteDessert.cshtml.g.cs
-C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\DeleteSide.cshtml.g.cs
 C:\Users\colin\OneDrive\Documents\GitHub\WebServerAppFinalProject\TempManager\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\colin\OneDrive\Documents\GitHub\WebServerAppFinalProject\TempManager\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\colin\OneDrive\Documents\GitHub\WebServerAppFinalProject\TempManager\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -660,3 +654,14 @@ C:\Users\maxim\Desktop\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp
 C:\Users\maxim\Desktop\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\TempManager.pdb
 C:\Users\maxim\Desktop\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\TempManager.genruntimeconfig.cache
 C:\Users\maxim\Desktop\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\TempManager.csproj.AssemblyReference.cache
+C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\TempManager.csproj.AssemblyReference.cache
+C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\AboutUs.cshtml.g.cs
+C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Dessert\AddDessert.cshtml.g.cs
+C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Dessert\DeleteDessert.cshtml.g.cs
+C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Dessert\Index.cshtml.g.cs
+C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Entree\AddEntree.cshtml.g.cs
+C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Entree\DeleteEntree.cshtml.g.cs
+C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Entree\Index.cshtml.g.cs
+C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Side\AddSide.cshtml.g.cs
+C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Side\DeleteSide.cshtml.g.cs
+C:\Users\Matthew\Documents\GitHub\WebServerAppFinalProject\TempManager\obj\Debug\netcoreapp3.1\Razor\Views\Side\Index.cshtml.g.cs

@@ -1,0 +1,28 @@
+﻿@* Maximiliano De Santiago *@
+@model List<Entree>
+
+
+@{
+    ViewData["Title"] = "Food Manager";
+}
+<h2 class="p-2">Entrees</h2>
+
+<a asp-action="AddEntree" class="btn btn-dark mr-2">Add an Entree</a>
+
+<table class="table table-striped mt-2">
+    <thead>
+        <tr><th>Date</th><th>Name</th><th>Description</th><th></th></tr>
+    </thead>
+    <tbody>
+        @foreach (Entree entree in Model)
+        {
+            <tr>
+                <td>@entree.Date?.ToShortDateString()</td>
+                <td>@entree.Name</td>
+                <td>@entree.Description)</td>
+                <td><a asp-action="DeleteEntree" asp-route-id="@entree.Id" class="btn btn-dark">Delete Entree</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<hr />
